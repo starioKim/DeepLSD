@@ -17,6 +17,7 @@ from pathlib import Path
 
 # Model config
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+print("Using device:", device)
 conf = {
     'detect_lines': True,  # Whether to detect lines or only DF/AF
     'line_detection_params': {
@@ -38,27 +39,44 @@ INPUT_DIR  = Path("/datasets/SATELLITE/crop_smooth")
 OUTPUT_DIR = Path("/datasets/SATELLITE/deepLSD_ver1")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# 모든 PNG 파일 순회
-for img_path in INPUT_DIR.glob("*.png"):
-    # 1) 이미지 로드 → RGB→Gray
-    img = cv2.imread(str(img_path))[:, :, ::-1]
-    gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
+# 배치 크기 설정
+BATCH_SIZE = 8
 
-    # 2) 추론
-    inputs = {'image': torch.tensor(gray, dtype=torch.float, device=device)[None, None] / 255.}
+# 처리할 모든 이미지 목록
+img_paths = list(INPUT_DIR.glob("*.png"))
+
+# 배치 단위로 순회
+for i in range(0, len(img_paths), BATCH_SIZE):
+    batch_paths = img_paths[i:i + BATCH_SIZE]
+    originals = []
+    batch_tensors = []
+
+    # 1) 배치 전처리: 로드 → RGB→Gray → 텐서화
+    for p in batch_paths:
+        img = cv2.imread(str(p))[:, :, ::-1]
+        gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
+        originals.append(img)
+        t = torch.tensor(gray, dtype=torch.float, device=device)[None, None] / 255.0
+        batch_tensors.append(t)
+
+    # (B,1,H,W) 크기로 합치기
+    batch_input = torch.cat(batch_tensors, dim=0)
+
+    # 2) 배치 추론
     with torch.no_grad():
-        out = net(inputs)
-        pred_lines = out['lines'][0]
+        out = net({'image': batch_input})
+        lines_batch = out['lines']  # length B 리스트
 
-    # 3) BGR 복사본에 선 그리기
-    img_bgr = img[:, :, ::-1].copy()
-    for (x1, y1), (x2, y2) in pred_lines:
-        cv2.line(img_bgr,
-                 (int(x1), int(y1)),
-                 (int(x2), int(y2)),
-                 (0, 0, 255), 2)
+    # 3) 배치 후처리 및 저장
+    for img, lines, p in zip(originals, lines_batch, batch_paths):
+        img_bgr = img[:, :, ::-1].copy()
+        # lines: Tensor (num_lines, 2, 2)
+        for (x1, y1), (x2, y2) in lines.cpu().numpy():
+            cv2.line(img_bgr,
+                     (int(x1), int(y1)),
+                     (int(x2), int(y2)),
+                     (0, 0, 255), 2)
 
-    # 4) 같은 파일명으로 저장
-    out_path = OUTPUT_DIR / img_path.name
-    cv2.imwrite(str(out_path), img_bgr)
-    print(f"Saved: {out_path}")
+        out_path = OUTPUT_DIR / p.name
+        cv2.imwrite(str(out_path), img_bgr)
+        print(f"Saved: {out_path}")
