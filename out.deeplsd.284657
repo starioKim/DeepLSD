@@ -1,0 +1,20 @@
+Using device: cuda
+Processing batches:   0%|          | 0/36 [00:00<?, ?it/s]Processing batches:   0%|          | 0/36 [00:30<?, ?it/s]
+Traceback (most recent call last):
+  File "/nfs/home/stario/DeepLSD/lsd_demo.py", line 77, in <module>
+    out = net({'image': batch_input})
+  File "/nfs/home/stario/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/nfs/home/stario/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/nfs/home/stario/DeepLSD/deeplsd/models/base_model.py", line 71, in forward
+    return self._forward(data)
+  File "/nfs/home/stario/DeepLSD/deeplsd/models/deeplsd_inference.py", line 78, in _forward
+    base = self.backbone(data['image'])
+  File "/nfs/home/stario/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/nfs/home/stario/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/nfs/home/stario/DeepLSD/deeplsd/models/backbones/vgg_unet.py", line 93, in forward
+    out = deblock(torch.cat([
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 9.32 GiB. GPU 0 has a total capacity of 23.64 GiB of which 2.03 GiB is free. Including non-PyTorch memory, this process has 21.60 GiB memory in use. Of the allocated memory 14.72 GiB is allocated by PyTorch, and 6.45 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

@@ -1,0 +1,6 @@
+Using device: cuda
+Processing batches:   0%|          | 0/72 [00:00<?, ?it/s]Processing batches:   0%|          | 0/72 [00:17<?, ?it/s]
+Traceback (most recent call last):
+  File "/nfs/home/stario/DeepLSD/lsd_demo.py", line 81, in <module>
+    coords = lines.cpu().numpy()
+AttributeError: 'numpy.ndarray' object has no attribute 'cpu'

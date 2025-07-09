@@ -1,0 +1,154 @@
+except_frame=[
+        path+'calib_7DT01_OMC2-3_20240323_002356_m400_120.fits',#flow
+        path+'calib_7DT01_OMC2-3_20240324_001253_m400_120.fits', 
+        path+'calib_7DT01_OMC2-3_20240324_001857_m400_120.fits',#line
+        path+'calib_7DT01_OMC2-3_20240324_002059_m400_120.fits',#line
+        path+'calib_7DT01_OMC2-3_20240323_003605_m400_120.fits',#line
+        path+'calib_7DT01_OMC2-3_20240323_015122_m425_120.fits',
+        path+'calib_7DT02_OMC2-3_20240323_003122_m450_120.fits',#flow
+        path+'calib_7DT02_OMC2-3_20240323_004332_m450_120.fits',#flow
+        path+'calib_7DT02_OMC2-3_20240324_002823_m450_120.fits',#flow
+        path+'calib_7DT02_OMC2-3_20240324_003832_m450_120.fits',#flow
+        path+'calib_7DT02_OMC2-3_20240323_004937_m450_120.fits',#line
+        path+'calib_7DT02_OMC2-3_20240323_003525_m450_120.fits',#line
+        path+'calib_7DT03_OMC2-3_20240324_003227_m500_120.fits',#flow
+        path+'calib_7DT03_OMC2-3_20240323_004935_m500_120.fits',#line
+        path+'calib_7DT03_OMC2-3_20240323_003523_m500_120.fits',#line
+        path+'calib_7DT03_OMC2-3_20240323_014647_m525_120.fits',#중간위에 별하나
+        path+'calib_7DT05_OMC2-3_20240323_005001_m550_120.fits',#line
+        path+'calib_7DT05_OMC2-3_20240323_003549_m550_120.fits',#line
+        path+'calib_7DT05_OMC2-3_20240323_014711_m575_120.fits',#line
+        path+'calib_7DT06_OMC2-3_20240323_004947_m600_120.fits',#line
+        path+'calib_7DT06_OMC2-3_20240323_003535_m600_120.fits',#line
+        path+'calib_7DT06_OMC2-3_20240323_014830_m625_120.fits',#line
+        path+'calib_7DT07_OMC2-3_20240324_003548_m650_120.fits',#no header
+        path+'calib_7DT07_OMC2-3_20240324_004958_m650_120.fits',#line
+        path+'calib_7DT07_OMC2-3_20240323_004925_m650_120.fits',#line
+        path+'calib_7DT07_OMC2-3_20240323_003514_m650_120.fits',#line
+        path+'calib_7DT07_OMC2-3_20240323_014825_m675_120.fits',#line
+        path+'calib_7DT08_OMC2-3_20240323_004959_m700_120.fits',#line
+        path+'calib_7DT08_OMC2-3_20240323_003548_m700_120.fits',#line
+        path+'calib_7DT08_OMC2-3_20240323_014647_m725_120.fits',#line
+        path+'calib_7DT09_OMC2-3_20240323_011228_m750_120.fits',
+        path+'calib_7DT09_OMC2-3_20240323_005012_m750_120.fits',#line
+        path+'calib_7DT09_OMC2-3_20240323_003601_m750_120.fits',#line
+        path+'calib_7DT09_OMC2-3_20240323_014719_m775_120.fits',#line
+        path+'calib_7DT10_OMC2-3_20240324_004034_m800_120.fits',#flow
+        path+'calib_7DT10_OMC2-3_20240323_005009_m800_120.fits',#line
+        path+'calib_7DT10_OMC2-3_20240323_003559_m800_120.fits',#line
+        path+'calib_7DT10_OMC2-3_20240323_014714_m825_120.fits',#line
+        
+        path+'calib_7DT07_OMC2-3_20240323_004522_m650_120.fits',#line
+        path+'calib_7DT07_OMC2-3_20240323_004724_m650_120.fits',#line
+        path+'calib_7DT07_OMC2-3_20240323_001902_m650_120.fits',#line
+        path+'calib_7DT07_OMC2-3_20240323_002305_m650_120.fits',#line
+        path+'calib_7DT07_OMC2-3_20240323_003514_m650_120.fits',#중복
+        path+'calib_7DT07_OMC2-3_20240323_004522_m650_120.fits',#중복
+        path+'calib_7DT07_OMC2-3_20240323_004724_m650_120.fits',#중복
+        path+'calib_7DT07_OMC2-3_20240323_004925_m650_120.fits',#중복
+        path+'calib_7DT07_OMC2-3_20240323_005530_m650_120.fits',#line
+        path+'calib_7DT01_OMC2-3_20240323_001751_m400_120.fits',#line
+        path+'calib_7DT01_OMC2-3_20240323_001953_m400_120.fits',#line
+        path+'calib_7DT01_OMC2-3_20240323_002154_m400_120.fits',#line
+        path+'calib_7DT01_OMC2-3_20240323_003605_m400_120.fits',#중복
+        path+'calib_7DT01_OMC2-3_20240323_004613_m400_120.fits',#line #고난도
+        path+'calib_7DT01_OMC2-3_20240323_004815_m400_120.fits',#line #고난도
+        path+'calib_7DT01_OMC2-3_20240323_005016_m400_120.fits',#line #고난도
+        path+'calib_7DT01_OMC2-3_20240323_005621_m400_120.fits',#line
+        path+'calib_7DT01_OMC2-3_20240323_011857_m425_120.fits',#line
+        path+'calib_7DT02_OMC2-3_20240323_001912_m450_120.fits',#line
+        path+'calib_7DT02_OMC2-3_20240323_002315_m450_120.fits',#line #고난도
+        path+'calib_7DT02_OMC2-3_20240323_003525_m450_120.fits',#중복
+        path+'calib_7DT02_OMC2-3_20240323_004534_m450_120.fits',#line
+        path+'calib_7DT02_OMC2-3_20240323_004736_m450_120.fits',#line
+        path+'calib_7DT02_OMC2-3_20240323_004937_m450_120.fits',#중복
+        path+'calib_7DT02_OMC2-3_20240323_005543_m450_120.fits',#line
+        path+'calib_7DT02_OMC2-3_20240323_011157_m450_120.fits',
+        path+'calib_7DT02_OMC2-3_20240323_011757_m475_120.fits',#line
+        path+'calib_7DT03_OMC2-3_20240323_001908_m500_120.fits',#line
+        path+'calib_7DT03_OMC2-3_20240323_002312_m500_120.fits',#line
+        path+'calib_7DT03_OMC2-3_20240323_003523_m500_120.fits',#중복
+        path+'calib_7DT03_OMC2-3_20240323_004532_m500_120.fits',#line
+        path+'calib_7DT03_OMC2-3_20240323_004733_m500_120.fits',#line
+        path+'calib_7DT03_OMC2-3_20240323_004935_m500_120.fits',#중복
+        path+'calib_7DT03_OMC2-3_20240323_005137_m500_120.fits',#line
+        path+'calib_7DT03_OMC2-3_20240323_005541_m500_120.fits',#line
+        path+'calib_7DT03_OMC2-3_20240323_011155_m500_120.fits',
+        path+'calib_7DT03_OMC2-3_20240323_011822_m525_120.fits',#line
+        path+'calib_7DT05_OMC2-3_20240323_001734_m550_120.fits',#line #고난도
+        path+'calib_7DT05_OMC2-3_20240323_001936_m550_120.fits',#line #고난도
+        path+'calib_7DT05_OMC2-3_20240323_002138_m550_120.fits',#line 
+        path+'calib_7DT05_OMC2-3_20240323_003549_m550_120.fits',#중복
+        path+'calib_7DT05_OMC2-3_20240323_004558_m550_120.fits',#line
+        path+'calib_7DT05_OMC2-3_20240323_004759_m550_120.fits',#line
+        path+'calib_7DT05_OMC2-3_20240323_005001_m550_120.fits',#중복
+        path+'calib_7DT05_OMC2-3_20240323_005606_m550_120.fits',#line
+        path+'calib_7DT05_OMC2-3_20240323_011219_m550_120.fits',
+        path+'calib_7DT05_OMC2-3_20240323_012856_m575_120.fits',#line 
+        path+'calib_7DT05_OMC2-3_20240323_013058_m575_120.fits',#line 
+        path+'calib_7DT05_OMC2-3_20240323_014711_m575_120.fits',#중복
+        path+'calib_7DT06_OMC2-3_20240323_001720_m600_120.fits',#line #고난도
+        path+'calib_7DT06_OMC2-3_20240323_001922_m600_120.fits',#line
+        path+'calib_7DT06_OMC2-3_20240323_002123_m600_120.fits',#line #고난도
+        path+'calib_7DT06_OMC2-3_20240323_003535_m600_120.fits',#중복
+        path+'calib_7DT06_OMC2-3_20240323_004544_m600_120.fits',#line
+        path+'calib_7DT06_OMC2-3_20240323_004745_m600_120.fits',#line
+        path+'calib_7DT06_OMC2-3_20240323_004947_m600_120.fits',#중복
+        path+'calib_7DT06_OMC2-3_20240323_005552_m600_120.fits',#line
+        path+'calib_7DT06_OMC2-3_20240323_010158_m600_120.fits',#line 
+        path+'calib_7DT06_OMC2-3_20240323_011206_m600_120.fits',
+        path+'calib_7DT06_OMC2-3_20240323_011804_m625_120.fits',#line
+        path+'calib_7DT06_OMC2-3_20240323_012813_m625_120.fits',#line 
+        path+'calib_7DT06_OMC2-3_20240323_013014_m625_120.fits',#line 
+        path+'calib_7DT06_OMC2-3_20240323_014830_m625_120.fits',#중복
+        path+'calib_7DT07_OMC2-3_20240323_001902_m650_120.fits',#중복
+        path+'calib_7DT07_OMC2-3_20240323_002305_m650_120.fits',#중복
+        path+'calib_7DT07_OMC2-3_20240323_003514_m650_120.fits',#중복
+        path+'calib_7DT07_OMC2-3_20240323_004522_m650_120.fits',#중복
+        path+'calib_7DT07_OMC2-3_20240323_004724_m650_120.fits',#중복
+        path+'calib_7DT07_OMC2-3_20240323_004925_m650_120.fits',#중복
+        path+'calib_7DT07_OMC2-3_20240323_005127_m650_120.fits',#line 
+        path+'calib_7DT07_OMC2-3_20240323_005530_m650_120.fits',#중복
+        path+'calib_7DT07_OMC2-3_20240323_011142_m650_120.fits',
+        path+'calib_7DT07_OMC2-3_20240323_011802_m675_120.fits',#line
+        path+'calib_7DT07_OMC2-3_20240323_012810_m675_120.fits',#line 
+        path+'calib_7DT07_OMC2-3_20240323_013012_m675_120.fits',#line 
+        path+'calib_7DT07_OMC2-3_20240323_014825_m675_120.fits',#중복
+        path+'calib_7DT08_OMC2-3_20240323_001735_m700_120.fits',#line
+        path+'calib_7DT08_OMC2-3_20240323_001936_m700_120.fits',#line
+        path+'calib_7DT08_OMC2-3_20240323_002138_m700_120.fits',#line 
+        path+'calib_7DT08_OMC2-3_20240323_003548_m700_120.fits',#중복
+        path+'calib_7DT08_OMC2-3_20240323_004556_m700_120.fits',#line
+        path+'calib_7DT08_OMC2-3_20240323_004758_m700_120.fits',#line
+        path+'calib_7DT08_OMC2-3_20240323_004959_m700_120.fits',#중복
+        path+'calib_7DT08_OMC2-3_20240323_005604_m700_120.fits',#line
+        path+'calib_7DT08_OMC2-3_20240323_011216_m700_120.fits',
+        path+'calib_7DT08_OMC2-3_20240323_011826_m725_120.fits',#line #고난도
+        path+'calib_7DT08_OMC2-3_20240323_012834_m725_120.fits',#line 
+        path+'calib_7DT08_OMC2-3_20240323_013035_m725_120.fits',#line 
+        path+'calib_7DT08_OMC2-3_20240323_014647_m725_120.fits',#중복
+        path+'calib_7DT09_OMC2-3_20240323_001747_m750_120.fits',#line #고난도
+        path+'calib_7DT09_OMC2-3_20240323_001949_m750_120.fits',#line #고난도
+        path+'calib_7DT09_OMC2-3_20240323_002150_m750_120.fits',#line 
+        path+'calib_7DT09_OMC2-3_20240323_003601_m750_120.fits',#중복
+        path+'calib_7DT09_OMC2-3_20240323_004609_m750_120.fits',#line
+        path+'calib_7DT09_OMC2-3_20240323_004810_m750_120.fits',#line
+        path+'calib_7DT09_OMC2-3_20240323_005012_m750_120.fits',#중복
+        path+'calib_7DT09_OMC2-3_20240323_005616_m750_120.fits',#line
+        path+'calib_7DT09_OMC2-3_20240323_010221_m750_120.fits',#line 
+        path+'calib_7DT09_OMC2-3_20240323_011228_m750_120.fits',#중복
+        path+'calib_7DT09_OMC2-3_20240323_011858_m775_120.fits',#line 
+        path+'calib_7DT09_OMC2-3_20240323_014719_m775_120.fits',#중복
+        path+'calib_7DT10_OMC2-3_20240323_001745_m800_120.fits',#line 
+        path+'calib_7DT10_OMC2-3_20240323_001947_m800_120.fits',#line
+        path+'calib_7DT10_OMC2-3_20240323_002148_m800_120.fits',#line 
+        path+'calib_7DT10_OMC2-3_20240323_003559_m800_120.fits',#중복
+        path+'calib_7DT10_OMC2-3_20240323_004607_m800_120.fits',#line
+        path+'calib_7DT10_OMC2-3_20240323_004808_m800_120.fits',#line
+        path+'calib_7DT10_OMC2-3_20240323_005009_m800_120.fits',#중복
+        path+'calib_7DT10_OMC2-3_20240323_005614_m800_120.fits',#line
+        path+'calib_7DT10_OMC2-3_20240323_010218_m800_120.fits',#line 
+        path+'calib_7DT10_OMC2-3_20240323_011226_m800_120.fits',
+        path+'calib_7DT10_OMC2-3_20240323_011853_m825_120.fits',#line 
+        path+'calib_7DT10_OMC2-3_20240323_014714_m825_120.fits']#중복
+

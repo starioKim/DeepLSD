@@ -1,0 +1,473 @@
+Using device: cuda
+Processing batches:   0%|          | 0/72 [00:00<?, ?it/s]Processing batches:   1%|▏         | 1/72 [00:47<55:50, 47.20s/it]Processing batches:   3%|▎         | 2/72 [01:38<57:57, 49.68s/it]Processing batches:   4%|▍         | 3/72 [02:18<52:00, 45.23s/it]Processing batches:   6%|▌         | 4/72 [03:12<55:07, 48.63s/it]Processing batches:   7%|▋         | 5/72 [04:10<58:11, 52.11s/it]Processing batches:   8%|▊         | 6/72 [04:44<50:22, 45.79s/it]Processing batches:  10%|▉         | 7/72 [05:30<49:39, 45.84s/it]Processing batches:  11%|█         | 8/72 [06:13<48:04, 45.07s/it]Processing batches:  12%|█▎        | 9/72 [07:03<49:02, 46.70s/it]Processing batches:  14%|█▍        | 10/72 [07:53<49:14, 47.66s/it]Processing batches:  15%|█▌        | 11/72 [08:48<50:44, 49.91s/it]Processing batches:  17%|█▋        | 12/72 [09:40<50:38, 50.65s/it]Processing batches:  18%|█▊        | 13/72 [10:43<53:13, 54.12s/it]Processing batches:  19%|█▉        | 14/72 [11:32<51:04, 52.83s/it]Processing batches:  21%|██        | 15/72 [12:25<50:14, 52.89s/it]Processing batches:  22%|██▏       | 16/72 [12:53<42:14, 45.25s/it]Processing batches:  24%|██▎       | 17/72 [13:28<38:32, 42.05s/it]Processing batches:  25%|██▌       | 18/72 [14:24<41:40, 46.30s/it]Processing batches:  26%|██▋       | 19/72 [15:08<40:13, 45.54s/it]Processing batches:  28%|██▊       | 20/72 [15:36<35:01, 40.42s/it]Processing batches:  29%|██▉       | 21/72 [16:08<32:09, 37.83s/it]Processing batches:  31%|███       | 22/72 [17:02<35:43, 42.86s/it]Processing batches:  32%|███▏      | 23/72 [17:58<37:59, 46.53s/it]Processing batches:  33%|███▎      | 24/72 [18:46<37:36, 47.00s/it]Processing batches:  35%|███▍      | 25/72 [19:32<36:40, 46.81s/it]Processing batches:  36%|███▌      | 26/72 [20:17<35:22, 46.13s/it]Processing batches:  38%|███▊      | 27/72 [20:55<32:49, 43.78s/it]Processing batches:  39%|███▉      | 28/72 [21:24<28:49, 39.31s/it]Processing batches:  40%|████      | 29/72 [22:09<29:21, 40.97s/it]Processing batches:  42%|████▏     | 30/72 [22:59<30:34, 43.67s/it]Processing batches:  43%|████▎     | 31/72 [23:40<29:24, 43.03s/it]Processing batches:  44%|████▍     | 32/72 [24:23<28:37, 42.93s/it]Processing batches:  46%|████▌     | 33/72 [24:53<25:23, 39.06s/it]Processing batches:  47%|████▋     | 34/72 [25:28<24:04, 38.00s/it]Processing batches:  49%|████▊     | 35/72 [26:17<25:27, 41.28s/it]Processing batches:  50%|█████     | 36/72 [26:49<23:03, 38.42s/it]Processing batches:  51%|█████▏    | 37/72 [27:21<21:12, 36.35s/it]Processing batches:  53%|█████▎    | 38/72 [27:56<20:30, 36.18s/it]Processing batches:  54%|█████▍    | 39/72 [28:40<21:13, 38.58s/it]Processing batches:  56%|█████▌    | 40/72 [29:29<22:09, 41.54s/it]Processing batches:  57%|█████▋    | 41/72 [30:02<20:08, 38.97s/it]Processing batches:  58%|█████▊    | 42/72 [30:30<17:50, 35.67s/it]Processing batches:  60%|█████▉    | 43/72 [31:13<18:18, 37.87s/it]Processing batches:  61%|██████    | 44/72 [32:01<19:07, 40.98s/it]Processing batches:  62%|██████▎   | 45/72 [32:41<18:15, 40.59s/it]Processing batches:  64%|██████▍   | 46/72 [33:15<16:42, 38.58s/it]Processing batches:  65%|██████▌   | 47/72 [33:52<15:53, 38.13s/it]Processing batches:  67%|██████▋   | 48/72 [34:21<14:10, 35.44s/it]Processing batches:  68%|██████▊   | 49/72 [34:55<13:28, 35.14s/it]Processing batches:  69%|██████▉   | 50/72 [35:34<13:16, 36.19s/it]Processing batches:  71%|███████   | 51/72 [36:01<11:40, 33.37s/it]Processing batches:  72%|███████▏  | 52/72 [36:22<09:53, 29.67s/it]Processing batches:  74%|███████▎  | 53/72 [36:55<09:43, 30.71s/it]Processing batches:  75%|███████▌  | 54/72 [37:34<09:57, 33.21s/it]Processing batches:  76%|███████▋  | 55/72 [38:05<09:10, 32.40s/it]Processing batches:  78%|███████▊  | 56/72 [38:34<08:25, 31.58s/it]Processing batches:  79%|███████▉  | 57/72 [39:06<07:54, 31.60s/it]Processing batches:  81%|████████  | 58/72 [39:44<07:49, 33.55s/it]Processing batches:  82%|████████▏ | 59/72 [40:15<07:06, 32.80s/it]Processing batches:  83%|████████▎ | 60/72 [40:43<06:17, 31.42s/it]Processing batches:  85%|████████▍ | 61/72 [41:05<05:14, 28.60s/it]Processing batches:  86%|████████▌ | 62/72 [41:32<04:40, 28.01s/it]Processing batches:  88%|████████▊ | 63/72 [41:50<03:46, 25.13s/it]Processing batches:  89%|████████▉ | 64/72 [42:07<03:00, 22.52s/it]Processing batches:  90%|█████████ | 65/72 [42:27<02:34, 22.00s/it]Processing batches:  92%|█████████▏| 66/72 [42:48<02:08, 21.44s/it]Processing batches:  93%|█████████▎| 67/72 [43:04<01:39, 19.99s/it]Processing batches:  94%|█████████▍| 68/72 [43:23<01:18, 19.55s/it]Processing batches:  96%|█████████▌| 69/72 [43:43<00:58, 19.66s/it]Processing batches:  97%|█████████▋| 70/72 [43:59<00:37, 18.81s/it]Processing batches:  99%|█████████▊| 71/72 [44:17<00:18, 18.54s/it]Processing batches: 100%|██████████| 72/72 [44:22<00:00, 14.21s/it]Processing batches: 100%|██████████| 72/72 [44:22<00:00, 36.97s/it]
+Skipped (no long lines): calib_7DT01_OMC2-3_20240323_002356_m400_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240323_004412_m400_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240323_011234_m400_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240323_012502_m425_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240323_012905_m425_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240323_013107_m425_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240323_013913_m425_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240323_014719_m425_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_001454_m400_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_001656_m400_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_001857_m400_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_003308_m400_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_005525_m400_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_005727_m400_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_010130_m400_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_010331_m400_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_010735_m400_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_010936_m400_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_012005_m425_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_012408_m425_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_012610_m425_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_014626_m425_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_015835_m425_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_020037_m425_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_020239_m425_120.png
+Skipped (no long lines): calib_7DT01_OMC2-3_20240324_021246_m425_120.png
+Skipped (no long lines): calib_7DT02_OMC2-3_20240323_020437_m475_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_001303_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_002110_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_002312_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_002514_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_002715_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_002918_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_003119_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_003321_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_003725_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_003927_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_004128_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_004330_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_005339_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_005743_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_005944_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_010146_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_010348_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_010550_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240323_010953_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_001210_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_001613_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_001815_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_002218_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_002622_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_002823_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_003227_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_003429_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_003832_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_004034_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_004236_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_004639_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_004841_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_005042_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_005446_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_005647_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_005849_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_010051_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_010253_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_010454_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_010656_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_010858_m500_120.png
+Skipped (no long lines): calib_7DT03_OMC2-3_20240324_011100_m500_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240323_005807_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240323_011219_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240324_001610_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240324_002618_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240324_002820_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240324_003626_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240324_003828_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240324_004029_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240324_004836_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240324_005239_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240324_005441_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240324_005643_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240324_010046_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240324_010248_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240324_010449_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240324_010852_m550_120.png
+Skipped (no long lines): calib_7DT05_OMC2-3_20240324_011054_m550_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_001316_m600_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_001518_m600_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_002527_m600_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_003132_m600_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_005754_m600_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_010158_m600_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_011602_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_012207_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_012409_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_013014_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_013216_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_013418_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_013619_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_013821_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_014023_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_014225_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_015031_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_015435_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_015637_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_015838_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_020040_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_020242_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_020443_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_020645_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240323_021452_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_003223_m600_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_004231_m600_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_004836_m600_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_010047_m600_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_010248_m600_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_010450_m600_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_010652_m600_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_010854_m600_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_011450_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_012055_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_012257_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_012458_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_012700_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_013104_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_013507_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_013911_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_014112_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_014314_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_014717_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_015121_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_015726_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_020331_m625_120.png
+Skipped (no long lines): calib_7DT06_OMC2-3_20240324_021339_m625_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_001459_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_002103_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_002305_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_002506_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_002708_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_003917_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_014221_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_014422_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_014624_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_015631_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_015833_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_020035_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_020236_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_020438_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_020841_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240323_021042_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_001130_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_001331_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_001533_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_001734_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_002339_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_002742_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_003145_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_003346_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_003749_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_004152_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_005602_m650_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_013816_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_014421_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_014824_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_015227_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_015630_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_015831_m675_120.png
+Skipped (no long lines): calib_7DT07_OMC2-3_20240324_020033_m675_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_001533_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_002138_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_002339_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_002742_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_003145_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_003951_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_004153_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_004354_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_005805_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_010007_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_010208_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_010611_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_011216_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_011625_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_012229_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_012834_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_013237_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_013438_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_013640_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_013841_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_014043_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_014244_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_014446_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_014849_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_015252_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_015454_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_015655_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_015857_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_020501_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_020904_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_021106_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240323_021509_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_001151_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_002158_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_002400_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_003206_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_003609_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_004213_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_004616_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_005221_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_005422_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_005624_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_010027_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_010229_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_010430_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_011034_m700_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_011515_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_012119_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_012321_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_012522_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_012724_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_012925_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_013127_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_013328_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_013530_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_013731_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_013933_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_014134_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_014336_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_014537_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_014739_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_014940_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_015142_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_015545_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_015948_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_020149_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_020351_m725_120.png
+Skipped (no long lines): calib_7DT08_OMC2-3_20240324_020955_m725_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_001546_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_002352_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_002553_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_002755_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_003158_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_003359_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_004004_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_004205_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_004407_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_005213_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_005818_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_010221_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_010422_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_010624_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_011027_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_011228_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_011656_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_012059_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_012301_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_012502_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_012906_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_013712_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_013913_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_014316_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_014518_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_014921_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_015122_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_015928_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_020130_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_020331_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_020533_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_020936_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_021137_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240323_021339_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_001455_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_001656_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_002059_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_002300_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_003308_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_003509_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_003912_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_004718_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_004919_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_005927_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_010128_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_010733_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_010934_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_011136_m750_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_011748_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_012151_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_012756_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_012957_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_013159_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_013400_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_013803_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_014609_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_014810_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_015213_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_015415_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_015616_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_015818_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_020019_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_020422_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_020624_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_020825_m775_120.png
+Skipped (no long lines): calib_7DT09_OMC2-3_20240324_021228_m775_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_001342_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_001544_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_001745_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_002148_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_002350_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_002551_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_002753_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_002955_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_003156_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_003358_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_003800_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_004002_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_004204_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_004405_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_005211_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_005412_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_005815_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_010017_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_010218_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_010420_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_010622_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_010823_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_011024_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_011226_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_011651_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_012054_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_012256_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_012457_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_012659_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_012900_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_013102_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_013303_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_013505_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_013706_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_013908_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_014109_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_014311_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_014512_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_014915_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_015117_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_015318_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_015520_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_015721_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_015923_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_020124_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_020326_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_020527_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_020729_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_020930_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_021132_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_021334_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240323_021535_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_001213_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_001414_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_001616_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_001817_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_002019_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_002220_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_002623_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_002825_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_003026_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_003228_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_003429_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_003631_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_003832_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_004034_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_004235_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_004638_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_004840_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_005041_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_005243_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_005444_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_005646_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_005847_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_010049_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_010250_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_010452_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_010654_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_010855_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_011057_m800_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_011531_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_011733_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_012136_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_012337_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_012539_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_012740_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_012942_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_013143_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_013345_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_013546_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_013748_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_013949_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_014151_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_014352_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_014553_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_014755_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_014956_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_015158_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_015359_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_015601_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_015802_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_020004_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_020205_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_020407_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_020608_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_020810_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_021011_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_021213_m825_120.png
+Skipped (no long lines): calib_7DT10_OMC2-3_20240324_021414_m825_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_001241_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_001442_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_001644_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_001845_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_002047_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_002248_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_002652_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_002853_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_003055_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_003256_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_003458_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_003659_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_003901_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_004102_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_004304_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_004707_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_004909_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_005110_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_005312_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_005513_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_005715_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_005917_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_010118_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_010320_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_010521_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_010723_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_010924_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_011126_m850_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_011607_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_011808_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_012010_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_012211_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_012413_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_012614_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_012816_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_013017_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_013219_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_013421_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_013622_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_013824_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_014025_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_014227_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_014428_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_014630_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_014831_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_015033_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_015234_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_015436_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_015637_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_015839_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_020040_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_020242_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_020443_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_020645_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_020846_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_021048_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_021249_m875_120.png
+Skipped (no long lines): calib_7DT11_OMC2-3_20240324_021451_m875_120.png
+✔ CSV written: /nfs/home/stario/DeepLSD/results/lsd_detected_images_ver6.csv
+✔ TXT written: /nfs/home/stario/DeepLSD/results/lsd_detected_images_ver6.txt
