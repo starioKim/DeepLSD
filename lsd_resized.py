@@ -33,12 +33,12 @@ net = net.to(device).eval()
 
 # ── I/O paths & parameters ───────────────────────────────────────────────────
 # 데이터셋 경로 변경 (리사이즈된 폴더 사용)
-INPUT_DIR   = Path("/datasets/SATELLITE/crop_smooth_resized_0.1")
-OUTPUT_DIR  = Path("/datasets/SATELLITE/deepLSD_ver8")
+INPUT_DIR   = Path("/datasets/SATELLITE/crop_smooth_resized_maxpool")
+OUTPUT_DIR  = Path("/datasets/SATELLITE/deepLSD_ver10")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-CSV_PATH    = "/nfs/home/stario/DeepLSD/results/lsd_detected_images_ver8.csv"
+CSV_PATH    = "/nfs/home/stario/DeepLSD/results/lsd_detected_images_ver10.csv"
 
-BATCH_SIZE  = 16       # batch size
+BATCH_SIZE  = 32       # batch size
 MIN_LENGTH  = 60       # minimum line length (pixels)
 
 # ── Gather image list ─────────────────────────────────────────────────────────
@@ -100,7 +100,10 @@ with open(CSV_PATH, 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerow(['filename'])
     for fname in detected_files:
-        writer.writerow([fname])
+        # Path 객체로 분리
+        p = Path(fname)
+        stem = p.stem.removesuffix("_resized")  # 파이썬 ≥3.9
+        writer.writerow([f"{stem}{p.suffix}"])
 
 print(f"✔ CSV written: {CSV_PATH}")
 
@@ -109,6 +112,8 @@ txt_path = CSV_PATH.replace('.csv', '.txt')
 with open(txt_path, 'w', newline='') as f_txt:
     f_txt.write('filename\n')
     for fname in detected_files:
-        f_txt.write(f"{fname}\n")
+        p = Path(fname)
+        stem = p.stem.removesuffix("_resized")
+        f_txt.write(f"{stem}{p.suffix}\n")
 
 print(f"✔ TXT written: {txt_path}")

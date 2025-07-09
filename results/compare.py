@@ -15,9 +15,9 @@ with open("except_frame.csv", "r", encoding="utf-8") as f:
             except_set.add(base_no_ext)
 
 # ---------- 2) positive_only_ver4.txt 처리 ----------
-with open("lsd_detected_images_ver8.txt", "r", encoding="utf-8") as f:
+with open("lsd_detected_images_ver10.txt", "r", encoding="utf-8") as f:
     positive_list = [
-        os.path.splitext(line.strip())[0].removesuffix("_resized")                # 'abc.png' → 'abc'
+        os.path.splitext(line.strip())[0] #.removesuffix("_resized")                # 'abc.png' → 'abc'
         for line in f
         if line.strip()
     ]
